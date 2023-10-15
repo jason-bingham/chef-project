@@ -3,6 +3,24 @@ $sizes: (
   12: 0.75rem,
   16: 1rem,
   20: 1.25rem,
+  24: 1.5rem,
+  28: 1.75rem,
   32: 2rem,
   36: 2.25rem,
+  48: 3rem,
 );
+
+$padding-hero: clamp(15rem, 15vh, 20rem);
+$padding-section: clamp(3rem, 10vh, 7rem);
+$padding-card-body: 5rem;
+
+$gap-grid: 1.5rem;
+$flex-group-gap: 1rem;
+
+// $gap-grid: size("24");
+// $gap-flex-group: size("16");
+// This didn't work becuase it creates a module import loop with the functions partial.
+
+$container-inline-spacing: 1rem;
+$container-max-width: 77.75rem;
+$container-max-width-l: 100rem;
